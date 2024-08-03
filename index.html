@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uber Eats</title>
+    <link rel="icon" type="image/x-icon" href="./images-uber-eats/favicon.ico">
+    <!--CSS Stylesheet-->
+    <link rel="stylesheet" href="./css sheet/ubereatsstyles.css">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/uber-move-text" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9a11d66afd.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+                <!--Landing Page-->
+
+    <section class="landing-page">
+
+        <header>
+            <a href="index.html"><img src="./images-uber-eats/uber eats logo.svg" alt="Uber Eats Logo" width="95"></a>
+            <nav>
+                <ul>
+                    <li><a href="https://auth.uber.com/v2/?breeze_init_req_id=173456db-286c-4ab6-9f24-8a02bd669709&breeze_local_zone=dca24&next_url=https%3A%2F%2Fwww.ubereats.com%2Flogin-redirect%2F%3Fapp_clip%3Dfalse%26campaign%3Dsignin_universal_link%26guest_mode%3Dfalse%26marketing_vistor_id%3Dbbfd0118-4d54-472a-a800-6406d1100616%26redirect%3D%252F&state=1efxSYoPdfeymv_LYrqhpxUYhsj7VgWnkNAdENa6RUQ%3D&x-uber-did=170b0560-73a9-4faa-9ec3-a2fa778d7aff" class="login">Log in</a></li>
+                    <li><a href="https://auth.uber.com/v2/?breeze_init_req_id=d9e31b59-5f47-4999-929d-2e85db4dff21&breeze_local_zone=dca22&next_url=https%3A%2F%2Fwww.ubereats.com%2Flogin-redirect%2F%3Fapp_clip%3Dfalse%26campaign%3Dsignin_universal_link%26guest_mode%3Dfalse%26marketing_vistor_id%3Dbbfd0118-4d54-472a-a800-6406d1100616%26redirect%3D%252F&state=DNIb5NgE2RP3jF2lX-EHPtWRlnNRaFnGv-KxtBFAKTs%3D&x-uber-did=170b0560-73a9-4faa-9ec3-a2fa778d7aff" class="signup">Sign up</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div id="first-container">
+            <h1>
+                Order delivery near you
+            </h1>
+
+            <div class="inputs">
+
+                <div class="location">
+                    <!-- <span><i class="fa-solid fa-location-dot"></i></span> -->
+                    <input type="text" name="delivery-address" placeholder="Enter delivery address">
+                </div>
+                
+                <div>
+                    <select name="delivery-status" id="delivery-status">
+                        <option value="deliver-now">Deliver now</option>
+                        <option value="schedule-later">Schedule later</option>
+                    </select>
+                </div>
+
+                <button>Search here</button>
+            </div>
+
+            <a href="https://auth.uber.com/v2/?breeze_init_req_id=bac95e3b-852f-497c-b78d-06a627c14c4c&breeze_local_zone=dca22&next_url=https%3A%2F%2Fwww.ubereats.com%2Flogin-redirect%2F%3Fapp_clip%3Dfalse%26campaign%3Dsignin_universal_link%26guest_mode%3Dfalse%26marketing_vistor_id%3Dbbfd0118-4d54-472a-a800-6406d1100616%26redirect%3D%252F&state=FKwvQngzXSLKpZn7nZ4K6W6oSIJWP7bJ_9dtawkit0c%3D&x-uber-did=170b0560-73a9-4faa-9ec3-a2fa778d7aff">
+                <p>or Sign in</p>
+            </a>
+        </div>
+
+    </section>
+
+                    <!--Second Container-->
+
+    <section class="widgets">
+        <div id="second-container">
+
+            <div id="widget-1">
+                <a href="https://www.uber.com/ng/en/business/solutions/eats/overview/">
+                    <img src="./images-uber-eats/employee.png" width="450" height="" alt="Picture showing feed your employees">
+                </a>
+                <h2>Feed your employees</h2>
+                <a href="https://www.uber.com/ng/en/business/solutions/eats/overview/" id="view-link"><p>Create a business account</p></a>
+            </div>
+
+            <div id="widget-2">
+                <a href="https://merchants.ubereats.com/ng/en/s/signup/">
+                    <img src="./images-uber-eats/restaurant-image.png" width="450" height="" alt="Picture showing a restaurant">
+                </a>
+                <h2>Your restaurant, delivered</h2>
+                <a href="https://merchants.ubereats.com/ng/en/s/signup/" id="view-link"><p>Add your restaurant</p></a>
+            </div>
+
+            <div id="widget-3">
+                <a href="https://www.uber.com/ng/en/deliver/">
+                    <img src="./images-uber-eats/delivery-image.png" width="450" height="" alt="Picture showing a delivery bike">
+                </a>
+                <h2>Deliver to Uber Eats</h2>
+                <a href="https://www.uber.com/ng/en/deliver/" id="view-link"><p>Sign up to deliver</p></a>
+            </div>
+        </div>
+    </section>
+
+        <section class="cities-near-me">
+            <div id="cities-header">
+                <h2>Cities near me</h2>
+                <a href="https://www.ubereats.com/location"><p id="view-link">View all 500+ cities</p></a>
+            </div>
+
+            <span>
+                <picture>
+                    <img src="./images-uber-eats/Screenshot 2024-08-02 at 6.23.13 PM.png" width="100%" alt="">
+                </picture>
+            </span>
+
+            <div id="list-cities">
+                <span>
+                    <a href="https://www.ubereats.com/city/akron-oh">
+                        <p>Akron</p>
+                    </a>
+                    <a href="https://www.ubereats.com/city/albuquerque-nm">
+                        <p>Albuquerque</p>
+                    </a>
+                    <a href="https://www.ubereats.com/city/bridgeport-ct">
+                        <p>Bridgeport</p>
+                    </a>
+                    <a href="https://www.ubereats.com/city/concord-ca">
+                        <p>Concord</p>
+                    </a>
+                    <a href="https://www.ubereats.com/city/dayton-oh">
+                        <p>Dayton</p>
+                    </a>
+                    <a href="https://www.ubereats.com/city/el-paso-tx">
+                        <p>El Paso</p>
+                    </a>
+                </span>
+
+                <span>
+                    <a href="https://www.ubereats.com/city/hartford-ct">
+                        <p>Hartford</p>
+                    </a>
+                    <a href="https://www.ubereats.com/city/houston-tx">
+                        <p>Houston</p>
+                    </a>
+                    <a href="https://www.ubereats.com/city/indianapolis-in">
+                        <p>Indianapolis</p>
+                    </a>
+                    <a href="https://www.ubereats.com/city/mcallen-tx">
+                        <p>McAllen</p>
+                    </a>
+                    <a href="https://www.ubereats.com/city/mesa-az">
+                        <p>Mesa</p>
+                    </a>
+                    <a href="https://www.ubereats.com/city/milwaukee-wi">
+                        <p>Milwaukee</p>
+                    </a>
+                </span>
+
+                <span>
+                    <a href="https://www.ubereats.com/city/nashville-tn">
+                        <p>Nashville</p>
+                    </a>
+                    <a href="https://www.ubereats.com/city/new-orleans-la">
+                        <p>New Orleans</p>
+                    </a>
+                    <a href="https://www.ubereats.com/city/oklahoma-city-ok">
+                        <p>Oklahoma City</p>
+                    </a>
+                    <a href="https://www.ubereats.com/city/omaha-ne">
+                        <p>Omaha</p>
+                    </a>
+                    <a href="https://www.ubereats.com/city/orlando-fl">
+                        <p>Orlando</p>
+                    </a>
+                    <a href="https://www.ubereats.com/city/palm-bay-fl">
+                        <p>Palm Bay</p>
+                    </a>
+                </span>
+
+                <span>
+                    <a href="https://www.ubereats.com/city/providence-ri">
+                        <p>Providence</p>
+                    </a>
+                    <a href="https://www.ubereats.com/city/queens-new-york-city">
+                        <p>Queens</p>
+                    </a>
+                    <a href="https://www.ubereats.com/city/san-antonio-tx">
+                        <p>San Antonio</p>
+                    </a>
+                    <a href="https://www.ubereats.com/city/stony-brook-ny">
+                        <p>Stony Brook</p>
+                    </a>
+                    <a href="https://www.ubereats.com/city/tucson-az">
+                        <p>Tucson</p>
+                    </a>
+                    <a href="https://www.ubereats.com/city/west-hollywood-ca">
+                        <p>West Hollywood</p>
+                    </a>
+                </span>
+
+            </div>
+        </section>
+
+        <section class="countries">
+            <div id="countries-header">
+                <h2>Countries with Uber Eats</h2>
+                <a href="https://www.ubereats.com/location#all-countries"><p id="view-link">View all countries</p></a>
+            </div>
+
+            <div id="list-countries">
+                <span>
+                    <a href="https://www.ubereats.com/au?slr=1"><p>Australia</p></a>
+                    <a href="https://www.ubereats.com/be?slr=1"><p>Belgium</p></a>
+                    <a href="https://www.ubereats.com/ca?slr=1"><p>Canada</p></a>
+                    <a href="https://www.ubereats.com/cl?slr=1"><p>Chile</p></a>
+                    <a href="https://www.ubereats.com/cr?slr=1"><p>Costa Rica</p></a>
+                    <a href="https://www.ubereats.com/do?slr=1"><p>Dominican Republic</p></a>
+                    <a href="https://www.ubereats.com/ec?slr=1"><p>Ecuador</p></a>
+                    <a href="https://www.ubereats.com/sv?slr=1"><p>El Salvador</p></a>
+                </span>
+
+                <span>
+                    <a href="https://www.ubereats.com/fr?slr=1"><p>France</p></a>
+                    <a href="https://www.ubereats.com/de?slr=1"><p>Germany</p></a>
+                    <a href="https://www.ubereats.com/gt?slr=1"><p>Guatemala</p></a>
+                    <a href="https://www.ubereats.com/ie?slr=1"><p>Ireland</p></a>
+                    <a href="https://www.ubereats.com/it?slr=1"><p>Italy</p></a>
+                    <a href="https://www.ubereats.com/jp?slr=1"><p>Japan</p></a>
+                    <a href="https://www.ubereats.com/ke?slr=1"><p>Kenya</p></a>
+                    <a href="https://www.ubereats.com/lu?slr=1"><p>Luxembourg</p></a>
+                </span>
+
+                <span>
+                    <a href="https://www.ubereats.com/mx?slr=1"><p>Mexico</p></a>
+                    <a href="https://www.ubereats.com/nl?slr=1"><p>Netherlands</p></a>
+                    <a href="https://www.ubereats.com/nz?slr=1"><p>New Zealand</p></a>
+                    <a href="https://www.ubereats.com/pa?slr=1"><p>Panama</p></a>
+                    <a href="https://www.ubereats.com/pl?slr=1"><p>Poland</p></a>
+                    <a href="https://www.ubereats.com/pt?slr=1"><p>Portugal</p></a>
+                    <a href="https://www.ubereats.com/za?slr=1"><p>South Africa</p></a>
+                    <a href="https://www.ubereats.com/es?slr=1"><p>Spain</p></a>
+                </span>
+
+                <span>
+                    <a href="https://www.ubereats.com/lk?slr=1"><p>Sri Lanka</p></a>
+                    <a href="https://www.ubereats.com/se?slr=1"><p>Sweden</p></a>
+                    <a href="https://www.ubereats.com/ch?slr=1"><p>Switzerland</p></a>
+                    <a href="https://www.ubereats.com/tw?slr=1"><p>Taiwan (ROC)</p></a>
+                    <a href="https://www.ubereats.com/gb?slr=1"><p>United Kingdom</p></a>
+                    <a href="https://www.ubereats.com/?slr=1"><p>United States</p></a>
+                </span>
+            </div>
+        </section>
+
+        <hr>
+
+                            <!--Last Container-->
+
+        <section class="list-menu">
+            <div id="last-container">
+                
+                <div id="menu-list">
+                    <span id="logos-wrapper">
+                        <img src="./images-uber-eats/uber eats logo.svg" alt="Uber Eats Logo">
+                        <div id="bottom-logos">
+                            <img src="./images-uber-eats/apple app store.svg" height="40px" alt="Download on the App Store">
+                            <img src="./images-uber-eats/google play.png" height="40px" alt="Get it on Google Play">
+                        </div>
+                    </span>
+                    <span>
+                        <a href=""><p>Get Help</p></a>
+                        <a href=""><p>Buy gift cards</p></a>
+                        <a href=""><p>Add your restaurant</p></a>
+                        <a href=""><p>Sign up to deliver</p></a>
+                        <a href=""><p>Create a business account</p></a>
+                        <a href=""><p>Promotions</p></a>
+                    </span>
+                    <span>
+                        <a href=""><p>Restaurants near me</p></a>
+                        <a href=""><p>View all cities</p></a>
+                        <a href=""><p>Pickup near me</p></a>
+                        <a href=""><p>About Uber Eats</p></a>
+                        <a href=""><p>Shop groceries</p></a>
+                        <p>English</p>
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+</body>
+
+                <!--Footer-->
+
+<footer>
+    <div id="footer-icons">
+        <span><i class="fa-brands fa-square-facebook"></i></span>
+        <span><i class="fa-brands fa-twitter"></i></span>
+        <span><i class="fa-brands fa-instagram"></i></span>
+    </div>
+    <ul>
+        <div id="footer-notes-1">
+            <li>Privacy Policy</li>
+            <li>Terms</li>
+            <li>Pricing</li>
+            <li>Do not sell or share my personal information</li>
+        </div>
+        <br>
+        <div id="footer-notes-2">
+            <li>This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply</li>
+            <li>&copy; 2024 Uber Technologies Inc. </li>
+        </div>
+    </ul>
+
+</footer>
+
+</html>
